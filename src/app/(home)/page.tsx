@@ -7,9 +7,9 @@ import Image from "next/image";
 export default function Home() {
   return (
      <div>
-      {/* <Services/> */}
-      {/* <Card/> */}
-      {/* <Advantages/> */}
+      <Services/>
+      <Card/>
+      <Advantages/>
       <Contacts/>
      </div>
   );
