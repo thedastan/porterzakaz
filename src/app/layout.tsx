@@ -4,6 +4,11 @@ import "@/styles/globals.scss";
 import LayoutPage from "./provider";
 import { SITE_NAME } from "@/constants/seo/seo.constants";
 
+const inter = Inter({
+  subsets: ["latin", "cyrillic"], 
+  variable: "--font-inter", 
+  display: "swap",  
+});
 
 export const metadata: Metadata = {
   title: SITE_NAME,
@@ -16,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en"  className={inter.className}>
       <body>
         <LayoutPage> 
         {children}
