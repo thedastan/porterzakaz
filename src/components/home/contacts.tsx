@@ -8,7 +8,7 @@ import { useState } from "react";
 import {
   PHONE_NUMBER,
   PHONE_NUMBER_BILAIN,
-  PHONE_NUMBER_MEGACOM,
+ 
 } from "@/constants/admin";
 import Link from "next/link";
 
@@ -25,10 +25,7 @@ const Contacts = () => {
       image: bilain,
       number: PHONE_NUMBER_BILAIN,
     },
-    {
-      image: mega,
-      number: PHONE_NUMBER_MEGACOM,
-    },
+     
   ];
 
   return (
@@ -72,13 +69,13 @@ const Contacts = () => {
                     justifyContent="center"
                     alignItems="center"
                     bg="white"
-                    w={{ md: 223, base: 110 }}
-                    h={{ md: "52px", base: "25px" }}
+                    w={{ md: 223, base: 160 }}
+                    h={{ md: "52px", base: "30px" }}
                     borderRadius={{ md: "10px", base: "5px" }}
                   >
                     <Box
-                      w={{ md: "35px", base: "16px" }}
-                      h={{ md: "32px", base: "15px" }}
+                      w={{ md: "35px", base: "20px" }}
+                      h={{ md: "32px", base: "20px" }}
                     >
                       <Image
                         style={{ width: "100%", height: "100%" }}
@@ -86,7 +83,7 @@ const Contacts = () => {
                         alt=""
                       />
                     </Box>
-                    <Text fontSize={{ md: 16, base: 8 }}>{el.number}</Text>
+                    <Text fontSize={{ md: 16, base: 10 }}>{el.number}</Text>
                   </Flex>
                 </Link>
               ))}
@@ -97,6 +94,8 @@ const Contacts = () => {
               color="#FAFAFA"
               fontSize={18}
               fontWeight={400}
+							py={2}
+
             >
               • Арген
             </Text>

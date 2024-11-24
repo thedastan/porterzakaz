@@ -7,14 +7,12 @@ import { FaPhoneAlt } from "react-icons/fa";
 import {
   PHONE_NUMBER,
   PHONE_NUMBER_BILAIN,
-  PHONE_NUMBER_MEGACOM,
   WHATSAPP_LINK,
 } from "@/constants/admin";
 import Image from "next/image";
 
 import img1 from "@/assets/img/oshka.png";
 import img2 from "@/assets/img/bilain.png";
-import img3 from "@/assets/img/megacom.png";
 import img4 from "@/assets/img/whatsapp.png";
 
 const Header = () => {
@@ -47,11 +45,7 @@ const Header = () => {
       tel: PHONE_NUMBER_BILAIN,
       link: `tel:${PHONE_NUMBER_BILAIN}`,
     },
-    {
-      image: img3,
-      tel: PHONE_NUMBER_MEGACOM,
-      link: `tel:${PHONE_NUMBER_MEGACOM}`,
-    },
+     
     {
       image: img4,
       tel: PHONE_NUMBER,
