@@ -83,7 +83,7 @@ const Contacts = () => {
                         alt=""
                       />
                     </Box>
-                    <Text fontSize={{ md: 16, base: 10 }}>{el.number}</Text>
+                    <Text fontSize={{ md: 16, base: 11 }}>{el.number}</Text>
                   </Flex>
                 </Link>
               ))}
