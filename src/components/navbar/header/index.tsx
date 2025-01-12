@@ -6,8 +6,10 @@ import { MdAccessTimeFilled } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import {
   PHONE_NUMBER,
+  PHONE_NUMBER_2,
   PHONE_NUMBER_BILAIN,
   WHATSAPP_LINK,
+  WHATSAPP_LINK_2,
 } from "@/constants/admin";
 import Image from "next/image";
 
@@ -41,11 +43,11 @@ const Header = () => {
       link: `tel:${PHONE_NUMBER}`,
     },
     {
-      image: img2,
-      tel: PHONE_NUMBER_BILAIN,
-      link: `tel:${PHONE_NUMBER_BILAIN}`,
+      image: img4,
+      tel: PHONE_NUMBER_2,
+      link: WHATSAPP_LINK_2,
     },
-     
+
     {
       image: img4,
       tel: PHONE_NUMBER,

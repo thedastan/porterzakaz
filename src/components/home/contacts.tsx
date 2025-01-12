@@ -7,8 +7,8 @@ import mega from "@/assets/img/megacom.png";
 import { useState } from "react";
 import {
   PHONE_NUMBER,
+  PHONE_NUMBER_2,
   PHONE_NUMBER_BILAIN,
- 
 } from "@/constants/admin";
 import Link from "next/link";
 
@@ -22,10 +22,9 @@ const Contacts = () => {
       number: PHONE_NUMBER,
     },
     {
-      image: bilain,
-      number: PHONE_NUMBER_BILAIN,
+      image: oshka,
+      number: PHONE_NUMBER_2,
     },
-     
   ];
 
   return (
@@ -94,8 +93,7 @@ const Contacts = () => {
               color="#FAFAFA"
               fontSize={18}
               fontWeight={400}
-							py={2}
-
+              py={2}
             >
               • Арген
             </Text>
