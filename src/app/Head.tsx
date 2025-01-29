@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Script from 'next/script'
 
 import { SEO_KEY_WORDS, SITE_NAME } from '@/constants/seo/seo.constants'
