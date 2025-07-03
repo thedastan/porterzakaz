@@ -1,6 +1,6 @@
 export const PHONE_NUMBER = "+996 705 856 575";
 
-export const PHONE_NUMBER_2 = "+996 507 171 783";
+export const PHONE_NUMBER_2 = "+996 705 856 575";
 
 export const PHONE_NUMBER_BILAIN = "+996 774 856 575";
 
