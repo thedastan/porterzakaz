@@ -1,4 +1,4 @@
-import { MOTION_WEB_LINK, WHATSAPP_LINK } from "@/constants/admin";
+import { WHATSAPP_LINK } from "@/constants/admin";
 import { Box, Button, Flex, Text } from "@chakra-ui/react";
 import Link from "next/link";
 import React from "react";
@@ -26,9 +26,6 @@ const Footer = () => {
 			<div className="container">
 				<Flex gap={2} flexDirection={{ base: "column", md: "row" }} alignItems="center" justifyContent="space-between" color="grey">
 					<Text>© 2024 «Портер Такси». Все права защищены</Text>
-					<Link href={MOTION_WEB_LINK} target={"_blank"}>
-						<Text>Разработал Motion Web LLC</Text>
-					</Link>
 				</Flex>
 			</div>
 		</Flex>
