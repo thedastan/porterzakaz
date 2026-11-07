@@ -25,7 +25,7 @@ const Footer = () => {
 
 			<div className="container">
 				<Flex gap={2} flexDirection={{ base: "column", md: "row" }} alignItems="center" justifyContent="space-between" color="grey">
-					<Text>© 2024 «Портер Такси». Все права защищены</Text>
+					<Text>© {new Date().getFullYear()} «Портер Такси». Все права защищены</Text>
 				</Flex>
 			</div>
 		</Flex>
