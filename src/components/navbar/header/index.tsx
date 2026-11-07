@@ -24,15 +24,19 @@ const Header = () => {
   const nav = [
     {
       name: "Услуги",
-      path: "#card",
+      path: "/#card",
+    },
+    {
+      name: "Цены",
+      path: "/ceny",
     },
     {
       name: "Преимущества",
-      path: "#advantages",
+      path: "/#advantages",
     },
     {
       name: "Контакты",
-      path: "#contact",
+      path: "/#contact",
     },
   ];
 
